@@ -1,36 +1,59 @@
 body {
-    background-color: #272727;
+    background-color: #5d536b;
 }
 
-
-.container {
-    background-color:#d4aa7d;
+.pagetitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
     text-align: center;
+    color: aliceblue;
+}
+.container {
     display: flex;
+    gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
+}
 
+.article {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #7d6b91;
+    border-radius: 10px;
+    padding: 10px;
+    width: 420px;
 }
-.title  {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #EFD09E;
+
+img {
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
 }
+
+
+
+.content  {
+    font-family: 'Roboto', sans-serif;
+    color: #b7bbda;
+    flex: 1;
+}
+
 .button {
-    background-color: #EFD09E;
-    color: #90A9B7;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    margin: 5px;
+    background-color: aquamarine;
     padding: 5px;
-    border-radius: 5px;
-}
-
-a:link {
-    color: #272727;
+    border-radius: 6px;
     text-decoration: none;
-    font-family: sans-serif;
 }
 
-a:hover {
-    color: #90a9b7;
+.button:hover {
+    background-color: #5d536b;
+    color: aliceblue;
 }
+
+/** Estilo Recetas **/
+
