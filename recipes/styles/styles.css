@@ -1,0 +1,48 @@
+body {
+    background-color: #5d536b;
+}
+.pagetitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    color: aliceblue;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 3em;
+    margin: 5em;
+    margin-top: 0;
+    background-color: #7d6b91;
+}
+
+img {
+    width: 600px;
+    height: 450px;
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+}
+li {
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+}
+
+.button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: aquamarine;
+    color: #5d536b;
+    border-radius: 6px;
+    padding: 3px;
+    width: 3em;
+}
+
+.button:hover {
+    background-color: #5d536b;
+    color: aliceblue;
+}
