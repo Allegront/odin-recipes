@@ -7,21 +7,29 @@ body {
     text-align: center;
     color: aliceblue;
 }
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: #7d6b91;
+}
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
-    padding: 3em;
-    margin: 5em;
-    margin-top: 0;
-    background-color: #7d6b91;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: #5d536b;
+    height: 480px;
+    width: 650px;
 }
 
 img {
     width: 600px;
     height: 450px;
 }
+
 h2 {
     font-family: 'Roboto', sans-serif;
     color: aliceblue;
@@ -45,4 +53,26 @@ li {
 .button:hover {
     background-color: #5d536b;
     color: aliceblue;
+}
+
+.recipecont {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 3em;
+    margin: 5em;
+    margin-top: 0;
+    background-color: #7d6b91;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+}
+
+.prep {
+    background-color: #5d536b;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px;
 }
