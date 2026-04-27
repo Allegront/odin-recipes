@@ -10,16 +10,17 @@ body {
 
 .main {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     background-color: #7d6b91;
 }
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding: 20px;
-    margin: 20px;
+    margin: auto;
     background-color: #5d536b;
     height: 480px;
     width: 650px;
@@ -74,5 +75,5 @@ li {
     background-color: #5d536b;
     border-radius: 10px;
     padding: 30px;
-    margin: 20px;
+    margin: 30px;
 }

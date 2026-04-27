@@ -24,9 +24,10 @@ body {
     background-color: #7d6b91;
     border-radius: 10px;
     padding: 10px;
-    width: 420px;
 }
-
+.recipeimage {
+    align-self: center;
+}
 img {
     width: 500px;
     height: 350px;
@@ -38,7 +39,9 @@ img {
 .content  {
     font-family: 'Roboto', sans-serif;
     color: #b7bbda;
-    flex: 1;
+    display: 1;
+    align-self: flex-start;
+    margin: 20px;
 }
 
 .button {
